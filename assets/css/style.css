@@ -64,6 +64,8 @@ body {
  background-image: url('../images/vaio_hard_edge_@2X.png');
 }
 
+/*===============================*/
+
 
 #MainBox{
     float: none;
@@ -75,12 +77,12 @@ body {
     border: 1.5px;
     border-style: solid;
     overflow: auto;
-  
 }
 
 
 #MainBox h2 {
   color: #4aaaa5;
+  font-family:'Georgia', Times, Times New Roman, serif;
  }
  
 
@@ -100,6 +102,8 @@ body {
 #MainBox p {
   margin: 5px;
 }
+/*===============================*/
+
 
 #main-footer{
   background:#666666;

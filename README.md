@@ -1,2 +1,0 @@
-# Gitana-Basic-Portfolio
-README.

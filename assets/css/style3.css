@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  /*background-color: #ebf7aa;*/
+  font-family: Arial, Helvetica, Sans-serif;
+  font-size: 16px;
+  color: #777777;
+  line-height: 1.6em;
+  margin: 0px;
+}
+
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#logo {
+  font-family:'Georgia', Times, Times New Roman, serif;
+  background-color: #4aaaa5;
+  /*position: absolute;*/
+  color: #ffffff;
+  /*display: block;*/
+  width: 450px;
+  padding: 5px 10px;
+  /*float: top left;*/
+  margin: 0 110px;
+  border: 2.5px;
+  border-style: solid;
+  border-color: #cccccc;
+  position: absolute;
+ 
+}
+
+#navbar {
+  background-color : #ffffff;
+  border: 1.5px;
+  border-style: solid;
+  border-color: #cccccc;
+
+}
+
+
+#navbar ul{
+  padding: 10px;
+  list-style: none;
+  float: right;
+}
+
+
+#navbar li{
+  display: inline;
+  padding: 9px;
+  padding-right: 15px;
+}
+
+
+  .pattern {
+      background-image: url('../images/vaio_hard_edge_@2X.png');
+  }
+     
+     
+     /*===============================*/
+
+     
+     
+     #MainBox{
+         float: none;
+         width: 100%;
+         background: #ffffff;
+         padding: 10px 30px;
+         margin: 20px 0px 60px 0px;
+         border-color: #dddddd;
+         border: 1.5px;
+         border-style: solid;
+         overflow: auto;
+     }
+     
+     
+     #MainBox h2 {
+       color: #4aaaa5;
+       font-family:'Georgia', Times, Times New Roman, serif;
+      }
+      
+     
+     #MainBox hr {
+      border-bottom-style: solid;
+      color: #dddddd;
+      margin: 20px 20px 20px 0px;
+     }
+     
+     
+     #MainBox img {
+       float: left;
+       width: 30%;
+       margin: 5px 20px 10px 0px;
+     }
+     
+     #MainBox p {
+       margin: 5px;
+     }
+     
+
+/*===============================*/
+
+
+#main-footer{
+  background:#666666;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 30px;
+  /*margin-top: 40px*/
+  border-top-style: solid;
+  border-color: #4aaaa5;
+  color: #dddddd;
